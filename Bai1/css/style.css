@@ -111,7 +111,7 @@ body {
 	color: #0e1d1f;
 }
 
-.col-xs-4 {
+.col-lg-4 {
 	padding-top: 25px;
 	float: left;
   	width: 33.33%;
@@ -191,13 +191,16 @@ body {
 .bottom-content {
 	padding-bottom: 15px;
 	text-align: justify;
-	padding-right: 60px;
 }
 
 .bottom-img-icon {
 	vertical-align: middle;
   	margin-right: 10px;
   	padding-bottom: 15px;
+}
+
+.tit-r, .bottom-content-icon {
+	padding-left: 100px;
 }
 
 /*FOOTER*/
