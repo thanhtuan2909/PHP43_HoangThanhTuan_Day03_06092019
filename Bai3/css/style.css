@@ -89,6 +89,9 @@ p {
 	padding-top: 40px;
 }
 
+.main-top .row {
+	margin: 0 40px;
+}
 /*MAIN CENTER*/
 
 .col-md-6 {
