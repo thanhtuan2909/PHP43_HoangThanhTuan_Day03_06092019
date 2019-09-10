@@ -1,0 +1,191 @@
+@font-face {
+	font-family: 'Qlassik Bold';
+	src: url('../fonts/QlassikBold_TB.ttf');
+}
+
+
+body {
+	font-family: 'Myriad Regular';
+	font-size: 16px;
+	background: #b1a38d;
+}
+
+.container {
+	max-width: 1086px;
+	margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+	font-family: 'Qlassik Bold';
+	font-size: 30px;
+	background: #dbebec;
+}
+
+.header-content {
+	padding: 35px 0;
+}
+
+/*main-top*/
+
+.main-top-ul {
+	padding-left: 0px;
+}
+#cc {
+	max-width: 1138px;
+}
+
+.main-top-ul, .main-top-li {
+	display: inline-block;
+}
+
+.main-top-link {
+	text-decoration: none;
+	color: #fefae8;
+	padding: 15px 87px;
+	background: #82a537;
+}
+
+.main-top-link:hover {
+	background: #fefae8;
+	color: #463328;
+}
+
+.main-top-content {
+	margin-left: -20px;
+	margin-right: -22px;
+}
+
+.main-center {
+	height: 250px;
+	padding-top: 30px;
+}
+
+.main-center-content {
+	background: url('../inages/bg-banner.jpg') repeat;
+	border: 5px solid #e3d8c5;
+}
+
+.main-center-content img {
+	float: left;
+}
+
+.main-center-title, .main-center-summary {
+	text-align: center;
+	padding: 0 40px 0 600px;
+	margin: 0px;
+} 
+
+.main-center-summary {
+	font-size: 24px;
+	color: #f0c786;
+	padding-bottom: 54px;
+}
+
+.main-center-title {
+	color: #fefae8;
+	padding-top: 30px;
+}
+.bg1 {
+	background: #4e3a2e;
+	z-index: 2;
+	position: relative;
+	height: 260px;
+}
+
+.bg2 {
+	z-index: 1;
+	position: absolute;
+	background: #fefae8;
+	margin: 80px 190px;
+	padding: 0 20px;
+}
+
+
+
+/*main middle*/
+
+.main-middle-content {
+	margin-top: 40px;
+}
+
+.main-middle-summary {
+	float: left;
+	margin: 0;
+	font-style: italic;
+	color: #463328;
+}
+.main-middle-link {
+	text-decoration: none;
+	color: #fefae8;
+	padding: 10px 15px;
+	border-radius: 10px;
+	background: #d9952a;
+	margin-left: 310px;
+}
+
+hr {
+	margin: 15px 0;
+	color: #f1e9d7;
+}
+
+
+/*main bottom*/
+
+.col-md-6 {
+	width: 50%;
+	float: left;
+}
+
+.main-bottom-paragraph {
+	text-align: justify;
+	color: #463328;
+}
+
+.main-bottom .l {
+	padding-right: 30px;
+}
+
+.main-bottom .r {
+	padding-left: 30px;
+}
+
+.main-bottom-title {
+	color: #7b9d33;
+}
+
+
+.main-bottom-tit {
+	color: #cf8b1f;
+}
+
+/*footer*/
+
+.footer {
+	background: #b1a38d;
+	margin-top: 679px;
+}
+
+.footer-ul {
+	list-style: none;
+	padding: 0;
+}
+
+.footer-ul, .footer-li {
+	display: inline-block;
+}
+
+.footer-link {
+	color: #463328;
+	text-decoration: none;
+}
+
+.footer-li {
+	border-right: 1px solid #463328;
+	padding-right: 5px;
+}
+
+.xs {
+	border: none;
+}
